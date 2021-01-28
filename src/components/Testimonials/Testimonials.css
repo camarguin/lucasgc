@@ -67,10 +67,39 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .TestimonialsLeft h1 {
+        font-size: 2.0em;
+    }
     .sliderTestimonials {
         max-width: 400px;
     }
     .TestimonialsRight img {
         max-width: 250px;
+    }
+}
+
+@media screen and ( max-width: 800px) {
+    .Testimonials {
+        flex-direction: column;
+    }
+    .TestimonialsLeft {
+        width: 100%;
+    }
+    .sliderTestimonials {
+        max-width: 100%;
+    }
+    
+    .TestimonialsLeft h1 {
+        font-size: 1.5em;
+    }
+    .TestimonialsRight {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .TestimonialsRight img {
+        width: 300px;
     }
 }

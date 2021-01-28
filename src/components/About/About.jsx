@@ -26,7 +26,7 @@ const About = () => {
                 </ul>
                 <div className="buttons-container">
                     <Button onClick={() => { console.log("Download CV") }} link="mailto:lucasgcamargo@icloud.com">Contact Me</Button>
-                    <Button onClick={() => { console.log("Download CV") }}>Download CV</Button>
+                    <Button onClick={() => { console.log("Download CV") }}>Resume</Button>
                 </div>
             </div>
             <div className="AboutRight">

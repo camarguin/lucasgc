@@ -59,6 +59,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .FeaturedProjectRight img {
     display: flex;
     justify-content: center;
@@ -78,4 +79,28 @@
     .FeaturedProjectRight img {
         max-width: 350px;
     }
-   }
+}
+
+@media screen and (max-width: 800px) {
+    .FeaturedProject {
+        display: flex;
+        flex-direction: column;
+    }
+    .FeaturedProjectLeft {
+        width: 100%;
+    }
+    .FeaturedProjectLeft h1 {
+        font-size: 1.5em;
+    }
+    .FeaturedProjectLeft p {
+        max-width: 560px;
+    }
+    .FeaturedProjectRight img {
+        margin: 50px;
+        max-width: 500px;
+    }
+    .FeaturedProjectRight {
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

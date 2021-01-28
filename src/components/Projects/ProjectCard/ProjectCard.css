@@ -168,12 +168,28 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .ProjectCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        grid-template-areas: ". ." ".";
+        margin-left: 70px;
+        margin-right: 70px;
+        justify-content: center;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .ProjectCard {
         justify-content: center;
     }
     .card {
-        max-width: 240px;        
+        max-width: 240px;
     }
 }
 

@@ -162,12 +162,22 @@
     }
     .HomeRight {
         /* justify-content: center; */
-        margin-top: 28vh;
+        margin-top: 35vh;
+        /* margin-top: 100%; */
     }
     .float-icons {
         width: 25px;
     }
     #computerguyImg {
         width: 350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .HomeLeft h1 {
+        font-size: 1.8em;
+    }
+    #computerguyImg {
+        width: 300px;
     }
 }
