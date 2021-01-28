@@ -181,3 +181,72 @@
         width: 300px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .Home {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.9fr;
+        gap: 0px 0px;
+        grid-template-areas: "HomeRight" "HomeLeft";
+    }
+    .home-icon {
+        left: 45%;
+        top: 15px;
+    }
+    .HomeLeft {
+        grid-area: HomeLeft;
+        width: 100%;
+        margin-top: 0;
+        justify-content: center;
+        align-content: center;
+        margin-left: 60px;
+    }
+    .HomeRight {
+        grid-area: HomeRight;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 200px;
+    }
+    #computerguyImg {
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #computerguyImg {
+        width: 200px;
+    }
+    #jsIcon {
+        position: absolute;
+        top: 40%;
+        left: 80px;
+    }
+    #htmlIcon {
+        position: absolute;
+        top: 20%;
+        left: 100px;
+    }
+    #cssIcon {
+        position: absolute;
+        top: 30%;
+        left: 140px;
+    }
+    #codeIcon {
+        position: absolute;
+        top: 5%;
+        left: 155px;
+    }
+    .arrows {
+        width: 60px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        /* margin-left: -30px; */
+        bottom: 20px;
+    }
+}

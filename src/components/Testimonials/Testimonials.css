@@ -60,6 +60,8 @@
 
 .slick-dots li button:before {
     /* color: orange; */
+    color: black;
+    font-size: 15px;
 }
 
 .slick-dots li.slick-active button:before {
