@@ -1,0 +1,65 @@
+.Testimonials {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.TestimonialsLeft {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    align-content: center;
+}
+
+.TestimonialsLeft hr {
+    width: 75px;
+    border: 1px solid #E27D60;
+    float: left;
+    margin-left: 100px;
+}
+
+.testimonials-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials-title h5 {
+    color: #E27D60;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.TestimonialsLeft h1 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+    margin-top: 0px;
+    line-height: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.sliderTestimonials {
+    width: 600px;
+    margin-left: 100px;
+}
+
+.TestimonialsRight {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.TestimonialsRight img {
+    width: 450px;
+}
+
+.slick-dots li button:before {
+    /* color: orange; */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #E76F51 !important;
+}

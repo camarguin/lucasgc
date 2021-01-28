@@ -1,0 +1,80 @@
+.Button {
+    /* border: 3px solid #E27D60;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    background: transparent;
+    color: #E27D60;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer; */
+    letter-spacing: 0.1em;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 200px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.Button:hover {
+    text-decoration: none;
+}
+
+.effect {
+    color: #E27D60;
+    border: 1px solid #FF6600;
+    box-shadow: 0px 0px 0px 1px #E27D60 inset;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.effect:hover {
+    border: 1px solid #E27D60;
+    background-color: #FAAB95;
+    box-shadow: 0px 0px 0px 2px #EEE inset;
+}
+
+.effect span {
+    transition: all 0.2s ease-out;
+    z-index: 2;
+}
+
+.effect:hover span {
+    letter-spacing: 0.13em;
+    color: #fff;
+}
+
+.effect:after {
+    background: #FAAB95;
+    border: 0px solid #FAAB95;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .8;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 50px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*easeOutCirc*/
+    z-index: 1;
+}
+
+.effect:hover:after {
+    background: #FAAB95;
+    border: 10px solid #FAAB95;
+    opacity: 0;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+}

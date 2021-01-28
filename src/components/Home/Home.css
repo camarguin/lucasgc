@@ -1,0 +1,155 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-icon {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.HomeLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.HomeLeft h1 {
+    text-align: left;
+    font-size: 3em;
+    color: #fff;
+    line-height: 115%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.HomeLeft h3 {
+    text-align: left;
+    color: #E76F51;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.HomeRight {
+    display: flex;
+    /* justify-content: center; */
+    width: 50%;
+    margin-right: 100px;
+}
+
+#computerguyImg {
+    width: 550px;
+    margin-top: 35%;
+}
+
+.float-icons {
+    width: 40px;
+}
+
+#jsIcon {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+}
+
+#htmlIcon {
+    position: absolute;
+    top: 38%;
+    left: 120px;
+}
+
+#cssIcon {
+    position: absolute;
+    top: 46%;
+    left: 170px;
+}
+
+#codeIcon {
+    position: absolute;
+    top: 33%;
+    left: 195px;
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 140px;
+    margin-left: -30px;
+    bottom: 100px;
+}
+
+.arrows path {
+    stroke: #E76F51;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+/*Safari and Chrome*/
+
+    {
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    /* Safari 和 Chrome */
+}

@@ -1,0 +1,83 @@
+.About {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.AboutLeft {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    align-content: center;
+}
+
+.AboutLeft hr {
+    width: 75px;
+    border: 1px solid #E76F51;
+    float: left;
+    margin-left: 100px;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-title h5 {
+    color: #E76F51;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.AboutLeft h1 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+    margin-top: 0px;
+    line-height: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.AboutLeft p {
+    margin-left: 100px;
+    font-size: 1em;
+    text-align: left;
+    max-width: 500px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 157.2%;
+    text-align: justify;
+}
+
+.AboutLeft ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.AboutLeft ul li a {
+    margin: 10px;
+    font-size: 1.5em;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.AboutLeft ul li a:hover {
+    color: #E76F51;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 90px;
+}
+
+.AboutRight {
+    width: 45%;
+}
