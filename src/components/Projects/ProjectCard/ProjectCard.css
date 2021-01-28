@@ -12,18 +12,6 @@
     margin: 0 auto;
 }
 
-@media (min-width: 600px) {
-    .ProjectCard {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 800px) {
-    .ProjectCard {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 .card {
     position: relative;
     display: flex;
@@ -35,12 +23,6 @@
     color: whitesmoke;
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-    .card {
-        height: 350px;
-    }
 }
 
 .card:before {
@@ -171,5 +153,32 @@
     }
     .card:focus-within:before, .card:focus-within:after, .card:focus-within .content, .card:focus-within .content>*:not(.title) {
         transition-duration: 0s;
+    }
+}
+
+@media (min-width: 600px) {
+    .ProjectCard {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .ProjectCard {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ProjectCard {
+        justify-content: center;
+    }
+    .card {
+        max-width: 240px;        
+    }
+}
+
+@media (min-width: 600px) {
+    .card {
+        height: 350px;
     }
 }

@@ -3,6 +3,8 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .AboutLeft {
@@ -80,4 +82,10 @@
 
 .AboutRight {
     width: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+ .AboutLeft h1 {
+     font-size: 2.0em;
+ }   
 }

@@ -3,6 +3,8 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .TestimonialsLeft {
@@ -62,4 +64,13 @@
 
 .slick-dots li.slick-active button:before {
     color: #E76F51 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderTestimonials {
+        max-width: 400px;
+    }
+    .TestimonialsRight img {
+        max-width: 250px;
+    }
 }

@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .home-icon {
@@ -48,14 +50,14 @@
 
 .HomeRight {
     display: flex;
-    /* justify-content: center; */
     width: 50%;
     margin-right: 100px;
+    margin-top: 20vh;
 }
 
 #computerguyImg {
     width: 550px;
-    margin-top: 35%;
+    /* margin-top: 35%; */
 }
 
 .float-icons {
@@ -152,4 +154,20 @@
     animation-delay: 0s;
     -webkit-animation-delay: 0s;
     /* Safari 和 Chrome */
+}
+
+@media screen and (max-width: 1024px) {
+    .HomeLeft h1 {
+        font-size: 2.2em;
+    }
+    .HomeRight {
+        /* justify-content: center; */
+        margin-top: 28vh;
+    }
+    .float-icons {
+        width: 25px;
+    }
+    #computerguyImg {
+        width: 350px;
+    }
 }
