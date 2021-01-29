@@ -218,10 +218,20 @@
 }
 
 @media screen and (max-width: 376px) {
+    .Home {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr;
+        gap: 0px 0px;
+        grid-template-areas: "HomeRight" "HomeLeft";
+    }
+    .HomeRight {
+        margin-top: 100px;
+    }
     #computerguyImg {
         width: 200px;
     }
-    #jsIcon {
+    /* #jsIcon {
         position: absolute;
         top: 40%;
         left: 80px;
@@ -240,13 +250,12 @@
         position: absolute;
         top: 5%;
         left: 155px;
-    }
+    } */
     .arrows {
         width: 60px;
         height: 72px;
         position: absolute;
         left: 50%;
-        /* margin-left: -30px; */
         bottom: 20px;
     }
 }
