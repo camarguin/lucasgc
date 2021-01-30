@@ -24,9 +24,9 @@ const Testimonials = (props) => {
         <div className="Testimonials">
             <div className="TestimonialsLeft">
                 <div className='testimonials-title'>
-                    <h5><hr /> &nbsp;&nbsp;&nbsp;CUSTOMER FEEDBACK</h5>
+                    <h5><hr /> &nbsp;&nbsp;&nbsp;FEEDBACK</h5>
                 </div>
-                <h1>What customers say...</h1>
+                <h1>What people say...</h1>
                 <Slider {...settings} className="sliderTestimonials">
                     <CardTestimonial author="steve" />
                     <CardTestimonial author="tyler" />

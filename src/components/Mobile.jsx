@@ -15,24 +15,16 @@ const Mobile = () => {
                 <Home />
             </div>
             <div className="AboutGridContainer">
-                <Fade>
-                    <About />
-                </Fade>
+                <About />
             </div>
             <div className="FeaturedProjectGridContainer">
-                <Fade>
-                    <FeaturedProject />
-                </Fade>
+                <FeaturedProject />
             </div>
             <div className="ProjectsGridContainer">
-                <Fade>
-                    <Projects />
-                </Fade>
+                <Projects />
             </div>
             <div className="TestimonialsGridContainer">
-                <Fade>
-                    <Testimonials />
-                </Fade>
+                <Testimonials />
             </div>
         </div>
     );
