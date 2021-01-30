@@ -1,0 +1,29 @@
+.Mobile {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px 0px;
+    justify-content: center;
+    margin: 0 auto;
+    grid-template-areas: "HomeGridContainer" "AboutGridContainer" "FeaturedProjectGridContainer" "ProjectsGridContainer" "TestimonialsGridContainer";
+}
+
+.HomeGridContainer {
+    grid-area: HomeGridContainer;
+}
+
+.AboutGridContainer {
+    grid-area: AboutGridContainer;
+}
+
+.FeaturedProjectGridContainer {
+    grid-area: FeaturedProjectGridContainer;
+}
+
+.ProjectsGridContainer {
+    grid-area: ProjectsGridContainer;
+}
+
+.TestimonialsGridContainer {
+    grid-area: TestimonialsGridContainer;
+}

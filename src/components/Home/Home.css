@@ -183,11 +183,11 @@
 @media screen and (max-width: 500px) {
     .Home {
         display: grid;
-        grid-template-columns: 0.8fr;
-        grid-template-rows: 0.1fr 0.1fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr;
         gap: 0px 0px;
-        grid-template-areas: "." "HomeRight" "HomeLeft";
-        margin-left: 80px;
+        grid-template-areas: 'HomeRight' 'HomeLeft';
+        /* margin: 0; */
     }
     .home-icon {
         left: 45%;
@@ -195,20 +195,28 @@
     }
     .HomeLeft {
         grid-area: HomeLeft;
+        display: flex;
+        justify-content: center;
         width: 100%;
         margin-top: 0;
+        margin-bottom: 0;
         margin: 0 auto;
     }
     .HomeLeft h1 {
-        text-align: left;
+        text-align: center;
+        margin: 0;
     }
     .HomeRight {
         grid-area: HomeRight;
         display: flex;
+        justify-content: center;
         width: 100%;
-        margin-top: 150px;
-        margin-bottom: 50px;
-        margin-left: 10%;
+        margin-top: 200px;
+        margin-bottom: 0;
+    }
+    .HomeLeft h3 {
+        text-align: center;
+        margin-top: 50px;
     }
     #computerguyImg {
         width: 200px;
@@ -233,6 +241,7 @@
         top: 5%;
         left: 90px;
     }
+    .arrows {
+        display: none;
+    }
 }
-
-@media screen and (max-width: 376px) {}

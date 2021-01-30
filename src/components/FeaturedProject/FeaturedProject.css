@@ -114,46 +114,43 @@
 
 @media screen and (max-width: 500px) {
     .FeaturedProject {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.5fr;
-        gap: 0px 0px;
-        grid-template-areas: "FeaturedProjectRight" "FeaturedProjectLeft";
-        margin-left: 80px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
     }
     .FeaturedProjectRight {
         grid-area: FeaturedProjectRight;
-        margin-left: 9%;
+        display: flex;
+        justify-content: center;
     }
     .FeaturedProjectRight img {
         max-width: 250px;
-        margin: 10px;
-        margin-left: 0;
+        margin: 50px;
     }
     .FeaturedProjectLeft {
         grid-area: FeaturedProjectLeft;
     }
     .FeaturedProjectLeft hr {
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .FeaturedProjectLeft h5 {
         font-size: 0.6em;
     }
     .FeaturedProjectLeft h1 {
         font-size: 1.2em;
-        margin-left: 0px;
-        margin-bottom: 0px;
+        margin-left: 40px;
     }
     .FeaturedProjectLeft p {
         font-size: 16px;
         font-weight: 300;
-        margin-left: 0;
-        margin-bottom: 0px;
-        max-width: 73vw;
+        margin-left: 40px;
+        max-width: 80vw;
         line-height: 190%;
     }
     .buttonsFp-container {
         display: flex;
-        margin-left: 15%;
+        justify-content: center;
+        margin-left: 0;
     }
 }

@@ -97,24 +97,22 @@
 
 @media screen and (max-width: 500px) {
     .About {
-        display: grid;
-        grid-template-columns: 0.8fr;
-        grid-template-rows: 0.2fr 0.5fr;
-        gap: 0px 0px;
-        grid-template-areas: "AboutRight" "AboutLeft";
-        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* margin-left: 40px; */
     }
     .AboutLeft {
         grid-area: AboutLeft;
         width: 100%;
-        margin: 0 auto;
     }
     .AboutRight {
         grid-area: AboutRight;
         width: 100%;
     }
     .AboutLeft hr {
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .about-title h5 {
         font-size: 0.6em;
@@ -122,24 +120,24 @@
     .AboutLeft h1 {
         font-size: 1.2em;
         margin-left: 0px;
+        margin-left: 40px;
     }
     .AboutLeft p {
         font-size: 16px;
         font-weight: 300;
         margin-left: 0;
-        max-width: 73vw;
+        max-width: 80vw;
         line-height: 190%;
+        margin-left: 40px;
     }
     .AboutLeft ul {
         display: flex;
         justify-content: left;
         margin-left: 0px;
     }
-    .AboutLeft ul li a {
-    }
+    .AboutLeft ul li a {}
     .buttons-container {
         margin-left: 0px;
-        justify-content: left;
+        justify-content: center;
     }
-
 }

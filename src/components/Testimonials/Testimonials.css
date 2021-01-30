@@ -107,40 +107,45 @@
 
 @media screen and (max-width: 500px) {
     .Testimonials {
+        display: flex;
         flex-direction: column-reverse;
-        margin-left: 80px;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
     }
     .TestimonialsRight {
         grid-area: TestimonialsRight;
         display: flex;
-        justify-content: left;
-        margin: 15px;
-        width: 100%;
-        margin-left: 0;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
         text-align: left;
     }
     .TestimonialsRight img {
         width: 200px;
-        margin-left: 10%;
     }
     .TestimonialsLeft {
         grid-area: TestimonialsLeft;
+        display: flex;
+        justify-content: center;
         margin: 0;
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 20px; */
     }
     .TestimonialsLeft h1 {
         font-size: 1.2em;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .TestimonialsLeft hr {
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .TestimonialsLeft h5 {
         font-size: 0.6em;
     }
     .sliderTestimonials {
-        max-width: 500px;
-        margin-left: 0;
+        max-width: 100vw;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
     }
 }

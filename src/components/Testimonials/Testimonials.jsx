@@ -18,19 +18,7 @@ const Testimonials = (props) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        cssEase: "linear",
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    pauseOnHover: true
-                }
-            }
-        ]
-
+        cssEase: "linear"
     }
     return (
         <div className="Testimonials">
