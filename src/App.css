@@ -6,6 +6,10 @@
   background-size: cover;
   background-position: center;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+.FullPage {
+  width: 100vw;
 }
 
 #fp-nav ul li a span, 

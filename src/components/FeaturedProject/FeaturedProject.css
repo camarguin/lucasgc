@@ -69,6 +69,13 @@
     height: auto;
 }
 
+.buttonsFp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 90px;
+}
+
 @media screen and (max-width: 1024px) {
     .FeaturedProjectLeft h1 {
         font-size: 2.0em;
@@ -102,5 +109,51 @@
     .FeaturedProjectRight {
         justify-content: center;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .FeaturedProject {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.5fr;
+        gap: 0px 0px;
+        grid-template-areas: "FeaturedProjectRight" "FeaturedProjectLeft";
+        margin-left: 80px;
+    }
+    .FeaturedProjectRight {
+        grid-area: FeaturedProjectRight;
+        margin-left: 9%;
+    }
+    .FeaturedProjectRight img {
+        max-width: 250px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    .FeaturedProjectLeft {
+        grid-area: FeaturedProjectLeft;
+    }
+    .FeaturedProjectLeft hr {
+        margin-left: 0px;
+    }
+    .FeaturedProjectLeft h5 {
+        font-size: 0.6em;
+    }
+    .FeaturedProjectLeft h1 {
+        font-size: 1.2em;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .FeaturedProjectLeft p {
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 0;
+        margin-bottom: 0px;
+        max-width: 73vw;
+        line-height: 190%;
+    }
+    .buttonsFp-container {
+        display: flex;
+        margin-left: 15%;
     }
 }

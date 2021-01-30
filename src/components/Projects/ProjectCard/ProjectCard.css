@@ -198,3 +198,22 @@
         height: 350px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .ProjectCard {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas: "." "." ".";
+        margin-top: 0px;
+    }
+    .card {
+        width: 250px;
+        height: 140px;
+        margin: 10px;
+    }
+    .content p {
+        display: none;
+    }
+}

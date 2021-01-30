@@ -21,7 +21,7 @@ const FullPage = () => (
 
         render={({ state, fullpageApi }) => {
             return (
-                <ReactFullpage.Wrapper>
+                <div className="FullPage">
                     <div className="section">
                         <Home />
                     </div>
@@ -45,7 +45,7 @@ const FullPage = () => (
                             <Testimonials />
                         </Fade>
                     </div>
-                </ReactFullpage.Wrapper>
+                </div>
             );
         }}
     />

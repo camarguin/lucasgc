@@ -90,7 +90,6 @@
     .sliderTestimonials {
         max-width: 100%;
     }
-    
     .TestimonialsLeft h1 {
         font-size: 1.5em;
     }
@@ -103,5 +102,45 @@
     }
     .TestimonialsRight img {
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Testimonials {
+        flex-direction: column-reverse;
+        margin-left: 80px;
+    }
+    .TestimonialsRight {
+        grid-area: TestimonialsRight;
+        display: flex;
+        justify-content: left;
+        margin: 15px;
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .TestimonialsRight img {
+        width: 200px;
+        margin-left: 10%;
+    }
+    .TestimonialsLeft {
+        grid-area: TestimonialsLeft;
+        margin: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .TestimonialsLeft h1 {
+        font-size: 1.2em;
+        margin-left: 0px;
+    }
+    .TestimonialsLeft hr {
+        margin-left: 0px;
+    }
+    .TestimonialsLeft h5 {
+        font-size: 0.6em;
+    }
+    .sliderTestimonials {
+        max-width: 500px;
+        margin-left: 0;
     }
 }

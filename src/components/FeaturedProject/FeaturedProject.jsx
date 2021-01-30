@@ -20,7 +20,7 @@ const FeaturedProject = () => {
                     <br />
                     <strong>Technologies: </strong> HTML, CSS, JAVASCRIPT
                 </p>
-                <div className="buttons-container">
+                <div className="buttonsFp-container">
                     <Button link="https://advocaciagerhardt.com.br" target="_blank">See Project</Button>
                 </div>
             </div>

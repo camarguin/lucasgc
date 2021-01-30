@@ -54,3 +54,22 @@
         font-size: 1.5em;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .projects-title hr {
+        margin-left: 0px;
+    }
+    .projects-h1 {
+        margin-left: 80px;
+        margin-bottom: 0px;
+        display: none;
+    }
+    .projects-title h5 {
+        font-size: 0.6em;
+        margin-bottom: 0px;
+    }
+    .projects-title {
+        margin-left: 80px;
+        margin-bottom: 0;
+    }
+}
