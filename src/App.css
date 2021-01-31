@@ -8,11 +8,17 @@
   font-family: 'Roboto', sans-serif;
   width: 100%;
 }
+
 .FullPage {
   width: 100vw;
 }
 
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-    background: #E76F51 !important;
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #E76F51 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    background-image: url('./media/BackgroundMobile.svg');
+  }
 }
