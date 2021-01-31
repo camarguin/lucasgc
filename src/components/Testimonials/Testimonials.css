@@ -82,7 +82,7 @@
 
 @media screen and ( max-width: 800px) {
     .Testimonials {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .TestimonialsLeft {
         width: 100%;

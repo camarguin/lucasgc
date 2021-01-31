@@ -93,6 +93,9 @@
     .AboutLeft h1 {
         font-size: 1.5em;
     }
+    .AboutLeft p {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {

@@ -91,7 +91,7 @@
 @media screen and (max-width: 800px) {
     .FeaturedProject {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .FeaturedProjectLeft {
         width: 100%;
@@ -101,10 +101,11 @@
     }
     .FeaturedProjectLeft p {
         max-width: 560px;
+        margin-top: 20px;
     }
     .FeaturedProjectRight img {
-        margin: 50px;
-        max-width: 500px;
+        margin: 10px;
+        max-width: 400px;
     }
     .FeaturedProjectRight {
         justify-content: center;
