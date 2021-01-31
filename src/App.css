@@ -20,6 +20,8 @@
 @media screen and (max-width: 500px) {
   .App {
     background-image: url('./media/BackgroundMobile.svg');
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: cover;
+
   }
 }

@@ -1,9 +1,10 @@
 .Mobile {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
     gap: 70px 0px;
     margin: 0;
+    max-width: 100vw;
     grid-template-areas: "HomeGridContainer" "AboutGridContainer" "FeaturedProjectGridContainer" "ProjectsGridContainer" "TestimonialsGridContainer";
 }
 

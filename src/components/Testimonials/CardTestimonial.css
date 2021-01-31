@@ -48,7 +48,6 @@
         font-size: 13px;
         font-weight: 300;
         margin-left: 40px;
-        /* max-width: 73vw; */
         line-height: 180%;
         margin-right: 40px;
     }
@@ -64,7 +63,6 @@
     }
     .CardTestimonial img {
         width: 45px;
-        position: absolute;
         bottom: 230px;
         left: 40px;
     }
