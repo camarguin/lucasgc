@@ -1,8 +1,8 @@
 .Mobile {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr 0.6fr;
-    gap: 50px 0px;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    gap: 0px 0px;
     justify-content: center;
     margin: 0 auto;
     grid-template-areas: "HomeGridContainer" "AboutGridContainer" "FeaturedProjectGridContainer" "ProjectsGridContainer" "TestimonialsGridContainer";
