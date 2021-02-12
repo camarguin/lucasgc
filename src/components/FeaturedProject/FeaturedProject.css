@@ -119,6 +119,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-content: center;
+        max-width: 500px;
     }
     .FeaturedProjectRight {
         grid-area: FeaturedProjectRight;

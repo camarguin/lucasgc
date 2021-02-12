@@ -27,3 +27,9 @@
 .TestimonialsGridContainer {
     grid-area: TestimonialsGridContainer;
 }
+
+@media screen and (max-width: 500px) {
+    .Mobile img{
+        max-width: 60vw;
+    }
+}
