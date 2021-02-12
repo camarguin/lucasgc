@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import Button from '../Button/Button';
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillDribbbleCircle } from 'react-icons/ai';
+import AboutPicture from '../../media/AboutPicture.jpg';
 
 const About = () => {
 
@@ -30,6 +31,7 @@ const About = () => {
                 </div>
             </div>
             <div className="AboutRight">
+                <img src={AboutPicture} alt="" />
             </div>
         </div>
     );
