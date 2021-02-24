@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lucasgc/static/css/main.c79b687f.chunk.css",
-    "main.js": "/lucasgc/static/js/main.394ae9a6.chunk.js",
-    "main.js.map": "/lucasgc/static/js/main.394ae9a6.chunk.js.map",
+    "main.css": "/lucasgc/static/css/main.3bd39cf9.chunk.css",
+    "main.js": "/lucasgc/static/js/main.79de75db.chunk.js",
+    "main.js.map": "/lucasgc/static/js/main.79de75db.chunk.js.map",
     "runtime-main.js": "/lucasgc/static/js/runtime-main.465d43a0.js",
     "runtime-main.js.map": "/lucasgc/static/js/runtime-main.465d43a0.js.map",
     "static/css/2.2e082a8d.chunk.css": "/lucasgc/static/css/2.2e082a8d.chunk.css",
@@ -12,27 +12,27 @@
     "static/js/3.2d93ce88.chunk.js.map": "/lucasgc/static/js/3.2d93ce88.chunk.js.map",
     "index.html": "/lucasgc/index.html",
     "static/css/2.2e082a8d.chunk.css.map": "/lucasgc/static/css/2.2e082a8d.chunk.css.map",
-    "static/css/main.c79b687f.chunk.css.map": "/lucasgc/static/css/main.c79b687f.chunk.css.map",
+    "static/css/main.3bd39cf9.chunk.css.map": "/lucasgc/static/css/main.3bd39cf9.chunk.css.map",
     "static/js/2.639e43c8.chunk.js.LICENSE.txt": "/lucasgc/static/js/2.639e43c8.chunk.js.LICENSE.txt",
     "static/media/AboutPicture.6fcf9fb7.jpg": "/lucasgc/static/media/AboutPicture.6fcf9fb7.jpg",
+    "static/media/ProjectCard.css": "/lucasgc/static/media/WestVancouverCricketClub.47952416.png",
     "static/media/App.css": "/lucasgc/static/media/BackgroundMobile.9bb55294.svg",
     "static/media/CODE.ea0130cd.svg": "/lucasgc/static/media/CODE.ea0130cd.svg",
     "static/media/CSS.a9e2a4d2.svg": "/lucasgc/static/media/CSS.a9e2a4d2.svg",
-    "static/media/ProjectCard.css": "/lucasgc/static/media/WestVancouverCricketClub.47952416.png",
     "static/media/ComputerGuyImg.606a94b3.svg": "/lucasgc/static/media/ComputerGuyImg.606a94b3.svg",
     "static/media/HTML.fd6109ec.svg": "/lucasgc/static/media/HTML.fd6109ec.svg",
     "static/media/IconElement.5214b756.svg": "/lucasgc/static/media/IconElement.5214b756.svg",
     "static/media/JS.c37c154a.svg": "/lucasgc/static/media/JS.c37c154a.svg",
     "static/media/LeftQuotes.989ba7c1.svg": "/lucasgc/static/media/LeftQuotes.989ba7c1.svg",
+    "static/media/PizzaShop.590274d6.png": "/lucasgc/static/media/PizzaShop.590274d6.png",
     "static/media/TestimonialsImg.8cb5b017.svg": "/lucasgc/static/media/TestimonialsImg.8cb5b017.svg",
-    "static/media/featuredProject.35a30956.png": "/lucasgc/static/media/featuredProject.35a30956.png",
     "static/media/slick-theme.css": "/lucasgc/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.465d43a0.js",
     "static/css/2.2e082a8d.chunk.css",
     "static/js/2.639e43c8.chunk.js",
-    "static/css/main.c79b687f.chunk.css",
-    "static/js/main.394ae9a6.chunk.js"
+    "static/css/main.3bd39cf9.chunk.css",
+    "static/js/main.79de75db.chunk.js"
   ]
 }
