@@ -9,11 +9,11 @@ const ProjectCard = (props) => {
         <div className="ProjectCard">
             <div className="card">
                 <div className="content">
-                    <h2 className="title">Combatly (In Development)</h2>
-                    <p className="copy">Small war board game which you have to conquer the whole map <br />
-                        Technologies: React, Firebase
+                    <h2 className="title">Advocacy Lawyer Website</h2>
+                    <p className="copy">Website made for an advocacy lawyer office which can describe the services they provide as lawyer in Brazil<br />
+                        Technologies: HTML, CSS, JAVASCRIPT
                     </p>
-                    <Button link="https://camarguin.github.io/Combatly-Web/" target="_blank">Visit Website</Button>
+                    <Button link="https://www.advocaciagerhardt.com.br" target="_blank">Visit Website</Button>
                 </div>
             </div>
             <div className="card">
