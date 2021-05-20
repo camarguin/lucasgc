@@ -15,6 +15,7 @@
     top: 20px;
     left: 100px;
     animation: fadein 3s;
+    width: 70px;
 }
 
 @keyframes fadein {

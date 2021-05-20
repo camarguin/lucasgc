@@ -8,14 +8,15 @@ import JsFloat from '../../media/JS.svg';
 import HtmlFloat from '../../media/HTML.svg';
 import CssFloat from '../../media/CSS.svg';
 import CodeFloat from '../../media/CODE.svg';
-import LgcIcon from '../../media/IconElement.svg';
+// import LgcIcon from '../../media/IconElement.svg';
+import lgcIcon from '../../media/LGC.png';
 import Fade from '../Fade/Fade';
 
 
 const Home = () => {
     return (
         <div className="Home">
-            <img className="home-icon" src={LgcIcon} alt="" />
+            <img className="home-icon" src={lgcIcon} alt="" />
             <div className="HomeLeft">
                 <Fade>
                     <h1>

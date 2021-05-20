@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
                     <p className="copy">Website made for an advocacy lawyer office which can describe the services they provide as lawyer in Brazil<br />
                         Technologies: HTML, CSS, JAVASCRIPT
                     </p>
-                    <Button link="https://www.advocaciagerhardt.com.br" target="_blank">Visit Website</Button>
+                    <Button link="https://camarguin.github.io/Tio-Project/" target="_blank">Visit Website</Button>
                 </div>
             </div>
             <div className="card">
