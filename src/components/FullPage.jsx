@@ -17,7 +17,6 @@ const FullPage = () => (
         navigationPosition={"left"}
         navigationTooltips={anchors}
         showActiveTooltip={false}
-        licenseKey={process.env.REACT_APP_LICENSE}
 
         render={({ state, fullpageApi }) => {
             return (
